@@ -178,14 +178,14 @@ SpecialTrainerMoves:
 	db 0
 
 	db BRUNO,$1
-	;onix - rock slide, screech, slam, dig
+	;onix - rock slide, screech, slam, earthquake
 	db 1,1,ROCK_SLIDE
 	db 1,2,SCREECH
-	db 1,4,DIG
+	db 1,4,EARTHQUAKE
 	;hitmonchan - ice punch, thunder punch, mega punch, submission
 	db 2,4,SUBMISSION
-	;hitmonlee - rolling kick, focus energy, hi jump kick, mega kick
-	db 3,1,ROLLING_KICK
+	;hitmonlee - submission, focus energy, hi jump kick, mega kick
+	db 3,1,HI_JUMP_KICK
 	;onix
 	db 4,1,BIND
 	db 4,2,BODY_SLAM
@@ -206,9 +206,9 @@ SpecialTrainerMoves:
 	db 3,1,SCREECH
 	db 3,3,DOUBLE_EDGE
 	db 3,4,MEGA_DRAIN
-	;arbok - earthquake, glare, screech, acid
+	;arbok - earthquake, glare, screech, sludge
 	db 4,1,EARTHQUAKE
-	;gengar - confuse ray, psychic, hypnosis, dream eater
+	;gengar - confuse ray, night shade, hypnosis, dream eater
 	db 5,2,PSYCHIC_M
 	db 0
 
