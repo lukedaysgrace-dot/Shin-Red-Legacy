@@ -1,9 +1,9 @@
 db DEX_VENONAT ; pokedex id
 db 60 ; base hp
-db 55 ; base attack
+db 60 ; base attack
 db 50 ; base defense
-db 45 ; base speed
-db 40 ; base special
+db 50 ; base speed
+db 50 ; base special
 db BUG ; species type 1
 db POISON ; species type 2
 db 190 ; catch rate
