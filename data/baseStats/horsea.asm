@@ -1,6 +1,6 @@
 db DEX_HORSEA ; pokedex id
-db 30 ; base hp
-db 40 ; base attack
+db 55 ; base hp
+db 60 ; base attack
 db 70 ; base defense
 db 60 ; base speed
 db 70 ; base special
