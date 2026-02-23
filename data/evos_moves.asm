@@ -1197,10 +1197,10 @@ HorseaEvosMoves:
 	db EV_LEVEL, 32, SEADRA
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 37, AGILITY
+	db 19, WATER_GUN
+	db 21, SMOKESCREEN
+	db 24, BUBBLEBEAM
+	db 28, DRAGON_RAGE
 	db 45, HYDRO_PUMP
 	db 0
 
@@ -1211,8 +1211,9 @@ SeadraEvosMoves:
 	db 19, SMOKESCREEN
 	db 24, LEER
 	db 30, WATER_GUN
-	db 41, AGILITY
-	db 52, HYDRO_PUMP
+	db 32, AGILITY
+        db 38, SLAM
+	db 45, HYDRO_PUMP
 	db 0
 
 MissingNo5EEvosMoves:
@@ -1821,9 +1822,9 @@ PidgeottoEvosMoves:
 	db 5, SAND_ATTACK
 	db 12, QUICK_ATTACK
 	db 21, WHIRLWIND
-	db 31, WING_ATTACK
-	db 40, AGILITY
-	db 49, MIRROR_MOVE
+	db 28, WING_ATTACK
+	db 36, AGILITY
+	db 45, MIRROR_MOVE
 	db 0
 
 PidgeotEvosMoves:
@@ -1834,8 +1835,9 @@ PidgeotEvosMoves:
 	db 12, QUICK_ATTACK
 	db 21, WHIRLWIND
 	db 31, WING_ATTACK
-	db 44, AGILITY
-	db 54, MIRROR_MOVE
+	db 36, AGILITY
+        db 40, RAZOR_WIND
+	db 45, MIRROR_MOVE
 	db 0
 
 StarmieEvosMoves:
