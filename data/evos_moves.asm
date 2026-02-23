@@ -432,9 +432,9 @@ ArcanineEvosMoves:
 ; Learnset
 	db 20, EMBER
 	db 20, BITE
-	db 30, LEER
-	db 40, TAKE_DOWN
-	db 50, FLAMETHROWER
+	db 30, FIRE_SPIN
+	db 35, FLAMETHROWER
+	db 45, FIRE_BLAST
 	db 0
 
 MewEvosMoves:
@@ -577,10 +577,10 @@ GrowlitheEvosMoves:
 	db 0
 ; Learnset
 	db 18, EMBER
-	db 23, LEER
-	db 30, TAKE_DOWN
-	db 39, AGILITY
-	db 50, FLAMETHROWER
+	db 20, RAGE
+	db 25, FIRE_SPIN
+	db 30, AGILITY
+	db 35, FLAMETHROWER
 	db 0
 
 OnixEvosMoves:
@@ -1153,9 +1153,9 @@ DratiniEvosMoves:
 	db 0
 ; Learnset
 	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 30, DRAGON_RAGE
-	db 40, SLAM
+	db 15, AGILITY
+	db 21, DRAGON_RAGE
+	db 25, SLAM
 	db 50, HYPER_BEAM
 	db 0
 
