@@ -138,7 +138,7 @@ MoveEnd:
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,    100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,      85,  5
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,        70, WATER,    100, 15
-	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     85, 10	;35, WATER,     75, 10
+	move CLAMP,        TRAPPING_EFFECT,             35, WATER,     85, 10	;35, WATER,     85, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,   100, 20
 	move SKULL_BASH,   HYPER_BEAM_EFFECT,              100, NORMAL,   100, 15
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,   100, 15
