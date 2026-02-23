@@ -1,6 +1,6 @@
 db DEX_DEWGONG ; pokedex id
-db 90 ; base hp
-db 70 ; base attack
+db 110 ; base hp
+db 80 ; base attack
 db 80 ; base defense
 db 70 ; base speed
 db 95 ; base special
