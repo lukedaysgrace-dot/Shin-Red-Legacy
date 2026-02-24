@@ -83,8 +83,8 @@ SpecialTrainerMoves:
 	db 0
 	
 	db LT_SURGE,$1
-	;pikachu - thunder wave, quick attack, thundershock, double team
 	;voltorb - tackle, screech, sonic boom, thundershock
+	;electabuzz - thunder punch, rage, counter, quick attack
 	;raichu - thunderbolt, tail whip, thunder wave, slam
 	db 3,1,THUNDERBOLT
 	db 0
@@ -104,12 +104,12 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOGA,$1
-	;koffing - explosion, double-team, sludge, smokescreen
-	db 1,1,EXPLOSION
+	;arbok - sludge, double-team, dig, glare
+	db 1,1,SLUDGE
 	db 1,2,DOUBLE_TEAM
 	;muk - disable, substitute, minimize, sludge
 	db 2,2,SUBSTITUTE
-	;venonat - takedown, supersonic, mega drain, sleep powder
+	;venomoth - psybeam, supersonic, mega drain, sleep powder
 	db 3,1,TAKE_DOWN
 	db 3,2,SUPERSONIC
 	db 3,3,MEGA_DRAIN
@@ -124,8 +124,8 @@ SpecialTrainerMoves:
 	db 1,1,REFLECT
 	;mr mime - psybeam, barrier, light screen, seismic toss
 	db 2,4,SEISMIC_TOSS
-	;venomoth - supersonic, leech life, stun spore, psybeam
-	db 3,1,SUPERSONIC
+	;golduck - psybeam, surf, amnesia, submission
+	db 3,1,PSYBEAM
 	;alakazam - psywave, recover, psychic, reflect
 	db 4,1,PSYWAVE
 	db 0
@@ -140,6 +140,7 @@ SpecialTrainerMoves:
 	db 3,3,DOUBLE_EDGE
 	;arcanine - fire blast, bite, leer, body slam
 	db 4,1,FIRE_BLAST
+	;flareon - flamethrower, dig, body slam, quick attack
 	db 0
 	
 	db GIOVANNI,$3
