@@ -741,12 +741,12 @@ ParasectEvosMoves:
 
 PsyduckEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 33, GOLDUCK
+	db EV_LEVEL, 28, GOLDUCK
 	db 0
 ; Learnset
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 36, CONFUSION
+	db 16, CONFUSION
+	db 24, DISABLE
+	db 28, PSYBEAM
 	db 43, FURY_SWIPES
 	db 52, HYDRO_PUMP
 	db 0
@@ -1599,9 +1599,9 @@ GolduckEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, TAIL_WHIP
+	db 28, PSYBEAM
 	db 31, DISABLE
-	db 39, CONFUSION
+	db 39, AMNESIA
 	db 48, FURY_SWIPES
 	db 59, HYDRO_PUMP
 	db 0
