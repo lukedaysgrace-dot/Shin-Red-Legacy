@@ -633,8 +633,7 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, ALAKAZAM
-	db EV_ITEM, MOON_STONE, 35, ALAKAZAM
+	db EV_LEVEL, 42, ALAKAZAM
 	db 0
 ; Learnset	;joenote - added Kinesis to be learned upon evolving
 	db 16, KINESIS
@@ -648,8 +647,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GOLEM
-	db EV_ITEM, FIRE_STONE, 35, GOLEM
+	db EV_LEVEL, 38, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -676,8 +674,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
-	db EV_ITEM, LEAF_STONE, 35, MACHAMP
+	db EV_LEVEL, 38, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1787,8 +1784,7 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GENGAR
-	db EV_ITEM, THUNDER_STONE, 35, GENGAR
+	db EV_LEVEL, 42, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1800,7 +1796,7 @@ AbraEvosMoves:
 	db EV_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
-	db 0
+	db 12 CONFUSION
 
 AlakazamEvosMoves:
 ; Evolutions
