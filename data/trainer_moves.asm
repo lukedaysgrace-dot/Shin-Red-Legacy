@@ -160,6 +160,7 @@ SpecialTrainerMoves:
 	db 5,2,BODY_SLAM
 	db 5,3,DOUBLE_TEAM
 	db 5,4,EARTHQUAKE
+	;kabutops - surf, rock slide, mega drain, razor wind
 	db 0
 	
 	db LORELEI,$1
