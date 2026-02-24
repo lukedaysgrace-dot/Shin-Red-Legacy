@@ -51,29 +51,29 @@ SpecialTrainerMoves:
 	;		-assume the rival got some TMs from Celadon City
 	db SONY1, $7
 	;pidgeotto - gust, sand attack, quick attack
-	;abra - teleport, counter, tri attack
+	;abra - teleport, counter, confusion
 	db 2,2,COUNTER
-	db 2,3,TRI_ATTACK
+	db 2,3,CONFUSION
 	;rattata - tackle, tail whip, quick attack, hyper fang
-	;squirtle - tackle, tail whip, bubble, water gun
+	;wartortle - tackle, tail whip, bubble, water gun
 	db 0
 
 	db SONY1, $8
 	;pidgeotto - gust, sand attack, quick attack
-	;abra - teleport, counter, tri attack
+	;abra - teleport, counter, confusion
 	db 2,2,COUNTER
-	db 2,3,TRI_ATTACK
+	db 2,3,CONFUSION
 	;rattata - tackle, tail whip, quick attack, hyper fang
-	;bulbasaur - tackle, growl, leech seed, vine whip
+	;ivysaur - tackle, growl, leech seed, vine whip
 	db 0
 
 	db SONY1, $9
 	;pidgeotto - gust, sand attack, quick attack
-	;abra - teleport, counter, tri attack
+	;abra - teleport, counter, confusion
 	db 2,2,COUNTER
-	db 2,3,TRI_ATTACK
+	db 2,3,CONFUSION
 	;rattata - tackle, tail whip, quick attack, hyper fang
-	;charmander - scratch, growl, ember, leer
+	;charmeleon - scratch, growl, ember, leer
 	db 0
 	
 	db MISTY,$1
