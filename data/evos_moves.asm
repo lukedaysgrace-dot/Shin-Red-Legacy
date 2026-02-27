@@ -492,6 +492,7 @@ GastlyEvosMoves:
 ; Learnset
 	db 27, HYPNOSIS
 	db 35, DREAM_EATER
+	db 38, NIGHT_SHADE
 	db 0
 
 ScytherEvosMoves:
@@ -1790,7 +1791,8 @@ HaunterEvosMoves:
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 36, NIGHT_SHADE
+	db 40, DREAM_EATER
 	db 0
 
 AbraEvosMoves:
