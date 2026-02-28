@@ -1,11 +1,11 @@
 db DEX_BUTTERFREE ; pokedex id
-db 60 ; base hp
-db 45 ; base attack
+db 80 ; base hp
+db 65 ; base attack
 db 50 ; base defense
 db 70 ; base speed
 db 80 ; base special
 db BUG ; species type 1
-db FLYING ; species type 2
+db PSYCHIC ; species type 2
 db 45 ; catch rate
 db 160 ; base exp yield
 INCBIN BUTTERFREE_FR,0,1 ; 77, sprite dimensions

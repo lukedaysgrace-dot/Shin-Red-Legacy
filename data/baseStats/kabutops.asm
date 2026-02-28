@@ -23,7 +23,7 @@ db 0 ; growth rate
 	tmlearn 17,19,20
 	tmlearn 31,32
 	tmlearn 33,34,40
-	tmlearn 44
+	tmlearn 44,48
 	tmlearn 50,51,53
 ;	db 0 ; padding
 	db BANK(KabutopsPicFront)

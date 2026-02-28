@@ -1191,6 +1191,7 @@ KabutopsEvosMoves:
 ; Learnset
 	db 34, ABSORB
 	db 39, SLASH
+	db 40, ROCK_SLIDE
 	db 46, LEER
 	db 53, HYDRO_PUMP
 	db 0
@@ -2057,6 +2058,7 @@ AerodactylEvosMoves:
 	db 33, SUPERSONIC
 	db 36, WING ATTACK
 	db 38, BITE
+	db 42, ROCK_SLIDE
 	db 45, TAKE_DOWN
 	db 54, HYPER_BEAM
 	db 0
