@@ -1459,7 +1459,7 @@ WeedleEvosMoves:
 
 KakunaEvosMoves:	;joenote - gave harden
 ; Evolutions
-	db EV_LEVEL, 10, BEEDRILL
+	db EV_LEVEL, 15, BEEDRILL
 	db 0
 ; Learnset
 	db 7, HARDEN
@@ -1474,6 +1474,7 @@ BeedrillEvosMoves:
 	db 20, TWINEEDLE
 	db 25, RAGE
 	db 30, PIN_MISSILE
+	db 33, SLUDGE
 	db 35, AGILITY
 	db 0
 
@@ -1566,7 +1567,7 @@ CaterpieEvosMoves:
 
 MetapodEvosMoves: ;joenote - gave harden
 ; Evolutions
-	db EV_LEVEL, 10, BUTTERFREE
+	db EV_LEVEL, 15, BUTTERFREE
 	db 0
 ; Learnset
 	db 7, HARDEN
