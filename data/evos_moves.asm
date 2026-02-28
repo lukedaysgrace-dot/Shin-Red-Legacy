@@ -1364,7 +1364,6 @@ VaporeonEvosMoves:
 	db 8, SAND_ATTACK
 	db 16, GROWL
 	db 23, QUICK_ATTACK
-	db 26, BUBBLE_BEAM
 	db 30, BITE
 	db 36, AURORA_BEAM
 	db 37, ACID_ARMOR
