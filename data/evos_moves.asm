@@ -638,9 +638,9 @@ KadabraEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 42, ALAKAZAM
 	db 0
-; Learnset	;joenote - added Kinesis to be learned upon evolving
-	db 16, KINESIS
+; Learnset	;joenote - added confusion to be learned upon evolving
 	db 16, CONFUSION
+	db 17, KINESIS
 	db 20, DISABLE
 	db 27, PSYBEAM
 	db 31, RECOVER
@@ -693,8 +693,10 @@ MrMimeEvosMoves:
 ; Learnset
 	db 15, CONFUSION
 	db 23, LIGHT_SCREEN
+	db 28, PSYBEAM
 	db 31, DOUBLESLAP
 	db 39, MEDITATE
+	db 43, PSYCHIC
 	db 47, SUBSTITUTE
 	db 0
 
@@ -726,9 +728,10 @@ ArbokEvosMoves:
 ; Learnset
 	db 10, POISON_STING
 	db 17, BITE
+	db 23, ACID
 	db 27, GLARE
-	db 36, SCREECH
-	db 47, ACID
+	db 34, SLUDGE
+	db 42, SCREECH
 	db 0
 
 ParasectEvosMoves:
@@ -1575,10 +1578,9 @@ ButterfreeEvosMoves:
 	db 10, CONFUSION
 	db 13, POISONPOWDER
 	db 14, STUN_SPORE
-	db 15, SLEEP_POWDER
+	db 15, LEECH_LIFE
 	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, GUST;joenote - yellow update
+	db 23, SLEEP_POWDER
 	db 32, PSYBEAM
 	db 0
 
@@ -1764,7 +1766,7 @@ PersianEvosMoves:
 	db 17, PAY_DAY
 	db 24, SCREECH
 	db 37, FURY_SWIPES
-	db 51, SLASH
+	db 42, SLASH
 	db 0
 
 MarowakEvosMoves:
@@ -1890,6 +1892,7 @@ TentacruelEvosMoves:
 	db 18, POISON_STING
 	db 22, WATER_GUN
 	db 27, CONSTRICT
+	db 32, SLUDGE
 	db 35, BARRIER
 	db 43, SCREECH
 	db 50, HYDRO_PUMP
@@ -1971,6 +1974,7 @@ RapidashEvosMoves:
 	db 32, STOMP
 	db 35, GROWL
 	db 39, FIRE_SPIN
+	db 42, FLAMETHROWER
 	db 47, TAKE_DOWN
 	db 55, AGILITY
 	db 0
@@ -2051,6 +2055,7 @@ AerodactylEvosMoves:
 	db 0
 ; Learnset
 	db 33, SUPERSONIC
+	db 36, WING ATTACK
 	db 38, BITE
 	db 45, TAKE_DOWN
 	db 54, HYPER_BEAM
@@ -2146,9 +2151,11 @@ CharizardEvosMoves:
 	db 9, EMBER
 	db 15, LEER
 	db 24, RAGE
-	db 36, SLASH
-	db 46, FLAMETHROWER
-	db 55, FIRE_SPIN
+	db 28, FIRE_SPIN
+	db 36, WING_ATTACK
+	db 40, FLAMETHROWER
+	db 42, SLASH
+	db 45, FIRE_SPIN
 	db 0
 
 MissingNoB5EvosMoves:
