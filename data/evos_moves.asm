@@ -1190,7 +1190,6 @@ KabutopsEvosMoves:
 ; Learnset
 	db 34, ABSORB
 	db 39, SLASH
-	db 40, ROCK_SLIDE
 	db 46, LEER
 	db 53, HYDRO_PUMP
 	db 0
@@ -1202,7 +1201,7 @@ HorseaEvosMoves:
 ; Learnset
 	db 19, WATER_GUN
 	db 21, SMOKESCREEN
-	db 24, BUBBLEBEAM
+	db 24, BUBBLE_BEAM
 	db 28, DRAGON_RAGE
 	db 45, HYDRO_PUMP
 	db 0
@@ -1445,7 +1444,7 @@ PoliwrathEvosMoves:
 	db 19, HYPNOSIS
 	db 27, DOUBLESLAP
 	db 35, SUBMISSION
-	db 44, BUBBLEBEAM
+	db 44, BUBBLE_BEAM
 	db 0
 
 WeedleEvosMoves:
