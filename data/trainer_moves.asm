@@ -222,10 +222,9 @@ SpecialTrainerMoves:
 	;dragonite - surf, slam, barrier, hyperbeam
 	db 3,1,SURF
 	db 3,2,SLAM
-	db 3,3,HYPER_BEAM
 	;aerodactyl - rock slide, earthquake, razor wind, hyperbeam
 	db 4,2,EARTHQUAKE
-	db 4,3,FLY
+	db 4,3,RAZOR_WIND
 	;dragonite - blizzard, fire blast, thunder, hyperbeam
 	db 5,1,BLIZZARD
 	db 5,2,FIRE_BLAST
