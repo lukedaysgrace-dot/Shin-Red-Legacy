@@ -1558,7 +1558,7 @@ CaterpieEvosMoves:
 
 MetapodEvosMoves: ;joenote - gave harden
 ; Evolutions
-	db EV_LEVEL, 10, BUTTERFREE
+	db EV_LEVEL, 15, BUTTERFREE
 	db 0
 ; Learnset
 	db 7, HARDEN
@@ -1570,12 +1570,13 @@ ButterfreeEvosMoves:
 ; Learnset
 	db 10, CONFUSION
 	db 13, POISONPOWDER
-	db 14, STUN_SPORE
+	db 14, LEECH_LIFE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
 	db 23, WHIRLWIND
 	db 28, GUST;joenote - yellow update
-	db 32, PSYBEAM
+	db 30, PSYBEAM
+	db 35, TWINEEDLE
 	db 0
 
 MachampEvosMoves:
@@ -2117,8 +2118,8 @@ CharmeleonEvosMoves:
 	db 15, LEER
 	db 24, RAGE
 	db 33, SLASH
-	db 42, FLAMETHROWER
-	db 56, FIRE_SPIN
+	db 38, FLAMETHROWER
+	db 42, FIRE_SPIN
 	db 0
 
 WartortleEvosMoves:
@@ -2142,8 +2143,8 @@ CharizardEvosMoves:
 	db 15, LEER
 	db 24, RAGE
 	db 36, SLASH
-	db 46, FLAMETHROWER
-	db 55, FIRE_SPIN
+	db 38, FLAMETHROWER
+	db 44, FIRE_SPIN
 	db 0
 
 MissingNoB5EvosMoves:
